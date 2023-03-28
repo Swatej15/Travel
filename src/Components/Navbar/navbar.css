@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(0deg, 0%, 93%);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.243);
+}
+.header .logo {
+  color: black;
+  font-weight: 600;
+  cursor: alias;
+  align-items: center;
+  justify-content: center;
+}
+.header .icon {
+  font-size: 25px;
+  color: hsl(199deg, 100%, 33%);
+  transform: translateY(5px);
+}
+@media screen and (max-width: 768px) {
+  .header .navBar {
+    position: absolute;
+    background-color: hsl(0deg, 0%, 93%);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: -500rem;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.5s ease-in-out;
+  }
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItem {
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItem .navLink {
+    color: hsl(240deg, 4%, 36%);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: hsl(199deg, 100%, 33%);
+  }
+  .header .navBar .navLists .btn {
+    margin-top: 1rem;
+  }
+  .header .navBar .navLists .btn a {
+    font-size: 600;
+    color: whitesmoke;
+  }
+  .header .navBar .closeNavBar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: hsl(199deg, 100%, 33%);
+  }
+  .header .navBar .closeNavBar:hover {
+    color: hsl(187deg, 85%, 43%);
+  }
+  .header .activeNavbar {
+    top: 7rem;
+  }
+}
+.header .toggleNavbar .icon {
+  font-size: 25px;
+  color: hsl(199deg, 100%, 33%);
+}
+.header .toggleNavbar:hover.icon {
+  color: hsl(187deg, 85%, 43%);
+}
+
+@media screen and (min-width: 769px) {
+  .toggleNavbar, .closeNavBar {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .header .navBar .navLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .header .navBar .navLists .navItem .navLink {
+    color: hsl(240deg, 4%, 36%);
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: hsl(199deg, 100%, 33%);
+  }
+  .header .navBar .navLists .btn {
+    margin-left: 1rem;
+  }
+  .header .navBar .navLists .btn a {
+    color: white;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header .navBar .navLists .navItem {
+    padding: 0 0.7rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 1rem 8.5rem;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
