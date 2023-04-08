@@ -22,8 +22,7 @@ const Footer = () =>{
     return(
         <section className="footer">
             <div className="videoDiv">
-                <video src={video} loop autoPlay muted type="video/mp4">
-                </video>
+            <video src={video} muted autoplay = 'true' loop type="video/mp4"></video>
             </div>
 
             <div className="secContent container">

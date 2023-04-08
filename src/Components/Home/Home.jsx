@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import './home.css'
-import video from '../asset/video3.mp4'
+import video from '../asset/video2.mp4'
 import {GrLocation} from 'react-icons/gr'
 import {HiFilter} from 'react-icons/hi'
 import {FiFacebook} from 'react-icons/fi'
@@ -35,7 +35,7 @@ const Home = () =>{
                 <div data-aos='fade-up' className="cardDiv grid">
                     <div className="destinationInput">
                         <label htmlFor="city">
-                            search your destionation:
+                            search your destination:
                         </label>
                         <div className="input flex">
                             <input type="text" placeholder="Enter name here" />
