@@ -64,23 +64,23 @@ const Footer = () =>{
                         <span className="groupTitle">
                             OUR AGENCY
                         </span>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Services
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Insurance
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Agency
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Tourism
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Payment
                         </li>
@@ -91,23 +91,23 @@ const Footer = () =>{
                         <span className="groupTitle">
                             PARTNERS
                         </span>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Bookings
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Rentcars
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             HostleWorld
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Trivago
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             TripAd
                         </li>
@@ -119,23 +119,23 @@ const Footer = () =>{
                         <span className="groupTitle">
                             LAST MINUTE
                         </span>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             London
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             California
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Indonesia
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Europe
                         </li>
-                        <li className="footerList felx">
+                        <li className="footerList flex">
                             <FiChevronRight className='icon'/>
                             Oceania
                         </li>
@@ -145,7 +145,7 @@ const Footer = () =>{
 
                 <div className="footerDiv flex">
                     <small>Best Travel website theme</small>
-                    <small>COPYRIGHTS RESERVED - ISRATECH2022</small>
+                    <small>COPYRIGHTS RESERVED - SWATEJ_PARMAR2022</small>
                 </div>
                 
             </div>
